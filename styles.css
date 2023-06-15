@@ -47,18 +47,19 @@ header{
 }
 
 .left-pic img{
-    width:100% ;
+    width:80% ;
 }
 
 .right-pic{
-    
+    align-items: right;
     flex: 1;
     /* transform: translateX(35px); */
 }
 
 .right-pic img{
-    width: 100%;
-    transform: translateX(40px);
+    
+    width: 80%;
+    transform: translateX(50px);
 
 }
 
@@ -91,7 +92,8 @@ margin: 1rem auto;
 }
 
 .button{
-    padding: 0.8rem 2rem;
+    height: 58px;
+    padding: 0 2rem;
     color:var(--white);
     border: none;
     border-radius: 30px;
@@ -132,7 +134,7 @@ background-color: var(--purple);
 .vertical{
     height: 84px;
     width: 1px;
-    background: var(--gray);
+    background: #D8D8D8;
     margin: 0 auto;
 }
 
@@ -141,7 +143,7 @@ background-color: var(--purple);
     height: 56px;
     display:grid;
     place-content: center;
-    border: 1px solid var(--gray) ;
+    border: 1px solid #D8D8D8 ;
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -240,7 +242,8 @@ footer{
 
 }
 .footer-download{
-    padding: 0.8rem 2rem;
+    height: 58px;
+    padding: 0 2rem;
     color:var(--white);
     border: none;
     font-weight: 700;
@@ -254,6 +257,7 @@ footer{
 
 .footer-download:hover{
     background-color: #B18BDD;
+    cursor: pointer;
 }
 
 
