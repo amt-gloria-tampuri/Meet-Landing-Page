@@ -43,11 +43,11 @@ header{
 
 .left-pic{
     flex: 1;
-    transform: translateX(-40px);
+    transform: translateX(-30px);
 }
 
 .left-pic img{
-    width:80% ;
+    width:90% ;
 }
 
 .right-pic{
@@ -58,8 +58,8 @@ header{
 }
 
 .right-pic img{
-    width: 80%;
-    transform: translateX(100px);
+    width: 90%;
+    transform: translateX(40px);
 
 }
 
@@ -247,8 +247,8 @@ footer{
 
 }
 .footer-download{
-    height: 58px;
-    padding: 0 2rem;
+    /* height: 58px; */
+    padding: 1.3rem 2rem;
     color:var(--white);
     border: none;
     font-weight: 700;
@@ -322,6 +322,10 @@ footer{
             width: 80%;
             margin: 2rem auto;
         }
+
+        /* .footer-download{
+            height: 58px;
+        } */
     }
 
    
@@ -402,7 +406,7 @@ footer{
             width: 100%;
 
         }
-
+       
         
     }
 
