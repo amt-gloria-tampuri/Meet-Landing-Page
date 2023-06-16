@@ -48,7 +48,7 @@ header{
 }
 
 .left-pic img{
-    width:90% ;
+    width:80% ;
 }
 
 .right-pic{
@@ -61,7 +61,7 @@ header{
 }
 
 .right-pic img{
-    width: 90%;
+    width: 80%;
     transform: translateX(40px);
 
 }
